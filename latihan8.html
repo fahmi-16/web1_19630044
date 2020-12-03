@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+</head>
+<body>
+    <h2>Belajar Form/ Input Biodata </h2>
+    <hr>
+
+    <form action="formTujuan.html" method="get" enctype="multipart/form-data"> 
+        <label for="">Nama Mahasiswa</label> <br>
+        <input type="text" name="nama" placeholder="Masukkan Nama"> <br>
+
+        <label for="">Tanggal Lahir</label> <br>
+        <input type="date" name="tgl_lahir"> <br>
+
+        <label for="">Jenis Kelamin</label> <br>
+        <input type="radio" name="jk" value="L"> Laki-Laki
+        <input type="radio" name="jk" value="P"> Perempuan <br>
+
+        <label for=""></label>Jenis Perkuliahan Yang Di Ikuti</label> <br>
+        <select name="jns_perkuliahan">
+            <option value="" disabled>--Pilih Perkuliahan--</option>
+            <option value="reg_pagi">Reguler Pagi</option>
+            <option value="reg_malam">Reguler Malam</option>
+            <option value="non_reg">Nonreguler</option>
+        </select> <br>
+
+        <label> Jenis Kendaraan Yang Dimiliki </label> <br>
+        <input type="checkbox" name="kendaraan" value="mobil"> Mobil
+        <input type="checkbox" name="kendaraan" value="motor"> Motor
+        <input type="checkbox" name="kendaraan" value="sepeda"> Sepeda
+        <input type="checkbox" name="kendaraan" value="Kapal"> Kapal
+        <input type="checkbox" name="kendaraan" value="pesawat"> Pesawat <br>
+
+        <button type="submit" name="simpan" style="border-radius: 8px; display: inline-block; background-color: salmon;">simpan</button>
+        <input type="submit" value="SIMPAN">
+    </form>
+</body>
+</html>

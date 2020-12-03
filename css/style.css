@@ -1,0 +1,41 @@
+#container{
+    width: 700px;
+}
+
+#header{
+    background-color: black;
+}
+
+h1{
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    
+}
+
+.menu{
+    background-color: #DCDCDC;
+    height: 200px;
+    width: 100px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content{
+    background-color: #EAEAEA;
+    height: 200px;
+    width: 600px;
+    float: left;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    background-color: #000000;
+    clear:both;
+    text-align: center;
+}
+
+#text-copy{
+    color: #DCDCDC;
+}
